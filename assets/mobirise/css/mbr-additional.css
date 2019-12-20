@@ -542,8 +542,8 @@ a:hover {
   color: #dfd9c6;
 }
 /* Scroll to top button*/
-.scrollToTop_wraper {
-  display: none;
+#scrollToTop a {
+  border-radius: 100px;
 }
 .form-control {
   font-family: 'Rubik', sans-serif;
@@ -1218,6 +1218,90 @@ section.lazy-placeholder:after {
 .cid-rKY2ztAU3c .mbr-iconfont {
   font-size: 80px;
   color: #149dcc;
+}
+.cid-rL9HULjQ4d {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #c1c1c1;
+}
+.cid-rL9HULjQ4d h3 {
+  text-align: center;
+  font-weight: 300;
+}
+.cid-rL9HULjQ4d .progress {
+  width: 100%;
+}
+.cid-rL9HULjQ4d .title-wrap {
+  display: flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+}
+.cid-rL9HULjQ4d progress {
+  height: 8px;
+}
+.cid-rL9HULjQ4d .progressbar-number {
+  display: inline-block;
+}
+.cid-rL9HULjQ4d .progress-primary {
+  background: rgba(206, 206, 206, 0.4);
+  border: none;
+  outline: none;
+}
+.cid-rL9HULjQ4d .progress-primary::-webkit-progress-bar {
+  background: rgba(206, 206, 206, 0.4);
+}
+.cid-rL9HULjQ4d .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rL9HULjQ4d .section-content-title {
+  font-weight: 500;
+}
+.cid-rL9HULjQ4d .progress_value {
+  position: relative;
+}
+.cid-rL9HULjQ4d .progress1 .progressbar-number:before,
+.cid-rL9HULjQ4d .progress2 .progressbar-number:before,
+.cid-rL9HULjQ4d .progress3 .progressbar-number:before,
+.cid-rL9HULjQ4d .progress4 .progressbar-number:before,
+.cid-rL9HULjQ4d .progress5 .progressbar-number:before {
+  position: absolute;
+  right: 15px;
+  top: 0;
+}
+.cid-rL9HULjQ4d progress[value]::-webkit-progress-bar {
+  background: rgba(206, 206, 206, 0.4);
+}
+.cid-rL9HULjQ4d progress::-webkit-progress-value {
+  background: #767676;
+}
+.cid-rL9HULjQ4d progress[value]::-moz-progress-bar {
+  background: #767676;
+}
+.cid-rL9HULjQ4d progress::-ms-fill {
+  background: #767676;
+}
+.cid-rL9HULjQ4d .progress1 .progressbar-number:before {
+  content: '92';
+}
+.cid-rL9HULjQ4d .progress2 .progressbar-number:before {
+  content: '100';
+}
+.cid-rL9HULjQ4d .progress3 .progressbar-number:before {
+  content: '80';
+}
+.cid-rL9HULjQ4d .progress4 .progressbar-number:before {
+  content: '70';
+}
+.cid-rL9HULjQ4d .progress5 .progressbar-number:before {
+  content: '60';
+}
+@media (min-width: 768px) {
+  .cid-rL9HULjQ4d .text-elements {
+    padding-right: 3rem;
+  }
+  .cid-rL9HULjQ4d .progress_elements {
+    padding-left: 3rem;
+  }
 }
 .cid-rL3JTNuL5D {
   padding-top: 90px;
